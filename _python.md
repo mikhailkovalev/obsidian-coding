@@ -11,4 +11,7 @@
 
 ### Django
 [[django_admin_url_reverse|Admin URL reverse]]
+Попробовать в будущем [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar)
 
+### Async
+[[python_async_main_example|Пример async]]
