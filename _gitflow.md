@@ -1,0 +1,1 @@
+https://medium.com/@patrickporto/4-branching-workflows-for-git-30d0aaee7bf
