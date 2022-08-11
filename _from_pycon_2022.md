@@ -1,0 +1,68 @@
+Погуглить в свободное время
+- toml
+- jsonnet
+- starlark
+- dhall
+- pyparsing
+- dinoconf
+- stomp
+- click house
+- elastic search
+- литкод
+- тинькофф секции задачи собесы
+- pydantic conint
+- pytest xdist
+- pyspy (rate: 50-100)
+- profiler: gitlab
+- yappi
+- vertdider youtube channel
+- Гриша Петров: GIL
+- Григорий Попов: python
+- orjson
+- iso
+- двухэтапная сборка docker
+- python wheels
+- Илья Красинский: юнит-экономика
+- h5py (hdf5)
+- pyside
+- youtrack
+- gprof2dot
+- graphviz
+- objgraph
+- blosc+lz4
+- pyserial
+- ssh vs tcp
+- apt install ser2net
+- kombu for rabbit
+- PSF
+- paveldroo
+- pattern matching
+- ETNA
+- Facebook prophet
+- catboost
+- dmlc xgboost
+- lightgbm
+- pybetter
+- pyre check
+- TypedDjango
+- complexity waterfall
+- sarimax
+- flake8
+- pylint
+- black
+- Typed-linter
+- tokenize
+- libcst
+- parso
+- pyupgrade: format -> f-string
+- typed ast
+- peg parsing for fun and profit guide van rossum
+- dependency-injector
+- punq
+- prometeus-client
+- cached-property + lock
+- ring
+- aiocache
+- KeyDB
+- avroserializers
+- protobuf
