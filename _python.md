@@ -15,3 +15,8 @@
 
 ### Async
 [[python_async_main_example|Пример async]]
+
+#### Контроль зависимостей
+#pip #pip-tools #poetry
+[pip-tools](https://pypi.org/project/pip-tools/)
+[poetry](https://python-poetry.org/docs/)
