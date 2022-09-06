@@ -20,3 +20,7 @@
 #pip #pip-tools #poetry
 [pip-tools](https://pypi.org/project/pip-tools/)
 [poetry](https://python-poetry.org/docs/)
+
+### [[_py_venv|Virtualenvs]]
+
+[[_py_logging|Logging]]
