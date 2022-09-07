@@ -39,6 +39,11 @@ CREATE [ UNIQUE ] INDEX [ CONCURRENTLY ] [ [ IF NOT EXISTS ] имя ] ON имя_
     [ WHERE предикат ]
 ```
 
+### Посмотреть имеющиеся индексы:
+```postgresql
+SELECT * FROM pg_indexes WHERE tablename = 'table_name';
+```
+
 ### [[_postgres_explain|Использование `EXPLAIN`]]
 ### [Неблокирующее построение индексов](https://postgrespro.ru/docs/postgrespro/9.5/sql-createindex#sql-createindex-concurrently)
 
