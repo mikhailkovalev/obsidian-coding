@@ -16,5 +16,5 @@ SHOW enable_seqscan;
 
 Отключить какой-то индекс:
 ```postgresql
-UPDATE pg_index SET indisvalid = false WHERE indexrelid = 'index_name'::regclass;
+UPDATE pg_index SET indisvalid = false WHERE indexrelid = 'invest_charge_scheduled_at_5638b65e'::regclass;
 ```

@@ -41,7 +41,7 @@ CREATE [ UNIQUE ] INDEX [ CONCURRENTLY ] [ [ IF NOT EXISTS ] имя ] ON имя_
 
 ### Посмотреть имеющиеся индексы:
 ```postgresql
-SELECT * FROM pg_indexes WHERE tablename = 'table_name';
+SELECT * FROM pg_indexes WHERE tablename = 'invest_charge';
 ```
 
 ### [[_postgres_explain|Использование `EXPLAIN`]]

@@ -24,6 +24,12 @@ docker container create -a STDIN my_image
 docker container create -it --entrypoint /bin/bash my_image
 ```
 
+#### Команда для запуска
+Можно указать сво
+```bash
+docker create -p 8080:8080 --name my_container my_image python3 main.py
+```
+
 #### Открытие сетевого доступа
 `-p`
 ```bash
