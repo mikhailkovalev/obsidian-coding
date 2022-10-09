@@ -1,4 +1,6 @@
+#markdown
 ### Collapsible section
+[Source](https://gist.github.com/pierrejoubert73/902cc94d79424356a8d20be2b382e1ab)
 ````markdown
 <details>
     <summary>Click me</summary>
@@ -18,6 +20,8 @@
 
 
 ### Checkboxes
+#checkbox
+[Source](https://stackoverflow.com/a/47344640)
 ```markdown
 ### Solar System Exploration, 1950s – 1960s
 
@@ -31,3 +35,15 @@
 - [ ] Neptune
 - [ ] Comet Haley
 ```
+
+### Tables
+[Source](https://stackoverflow.com/a/47344640)
+````markdown
+| Foo | Bar |
+|-----|-----|
+| Hello | World |
+````
+
+| Foo | Bar |
+|---|---|
+| Hello | World |
