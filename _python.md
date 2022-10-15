@@ -31,3 +31,6 @@
 
 #complex #cmath
 Для специальных операций над комплексными числами надо использовать модуль `cmath`
+
+#zip #zipfile
+### [[python_zipfile_example|`zipfile` example]]
