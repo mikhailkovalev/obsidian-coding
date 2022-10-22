@@ -6,8 +6,7 @@
 
 ### Testing
 [[python_coverage|Coverage]]
-[[profile_pytest|Profile PyTest]]
-Попробовать в будущем [`pytest-profiling`](https://pypi.org/project/pytest-profiling/)
+[[_pytest|Pytest]]
 
 ### Django
 [[django_admin_url_reverse|Admin URL reverse]]
