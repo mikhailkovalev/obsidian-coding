@@ -7,6 +7,7 @@
 ### Testing
 [[python_coverage|Coverage]]
 [[_pytest|Pytest]]
+[[2023-03-06T11-48|Mock Property]]
 
 ### Django
 [[django_admin_url_reverse|Admin URL reverse]]
