@@ -16,3 +16,4 @@ kubectl cp /tmp/foo <some-pod>:/tmp/bar -c <specific-container>
 kubectl cp <some-namespace>/<some-pod>:/tmp/foo /tmp/bar
 
 ```
+
