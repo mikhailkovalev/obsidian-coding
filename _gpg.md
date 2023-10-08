@@ -2,6 +2,15 @@
 
 Примеры использования `gpg`: [Source](https://devconnected.com/how-to-encrypt-file-on-linux/#Encrypt_Files_using_private_key)
 
+Генерировать ключ шифрования
+```bash
+gpg --full-gen-key
+```
+Зашифровать файл
+```
+
+```
+
 Решение ошибки
 ```
 No pinentry
