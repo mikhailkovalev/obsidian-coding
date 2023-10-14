@@ -3,11 +3,15 @@ https://realpython.com/dependency-management-python-poetry/
 Пока что всё будет кидаться сюда, потом рассортирую
 
 ### Poetry installation
+[Source](https://github.com/python-poetry/install.python-poetry.org)
 ```bash
-curl https://raw.githubusercontent.com/python-poetry/poetry/master/install-poetry.py | python3 -
+curl -sSL https://install.python-poetry.org | python3 -
 ```
 
-По дефолту на маке установилось в `/Users/kovalev_m/Library/Python/3.9/bin/poetry`
+Дефолтное расположение
+- На маке `/Users/kovalev_m/Library/Python/3.9/bin/poetry`
+- На линуксе `/home/mixon/.local/bin/poetry`
+
 
 ### Poetry uninstallation
 Использовать тот же скрипт с опцией `--uninstall`
