@@ -66,6 +66,26 @@ rp-poetry/
 +-- pyproject.toml
 ```
 
+### Добавление poetry в существующий проект
+```bash
+poetry init
+```
+Эта команда стартует интерактивную сессию чтобы создать `pyproject.toml`. 
+
+После создания `pyproject.toml` можно использовать `poetry` в проекте
+
+#### Если присутствует `requirements.txt`
+Просто использовать команду `add`, в которую прокинуть все зависимости из `requirements.txt`:
+```bash
+poetry add `cat requirements.txt`
+```
+
+В случае если `requirements.txt` содержит сложные вещи, можно добавить зависимости в `pyproject.toml` вручную.
+
+#### Как восстановить `requirements.txt` из `poetry.lock`
+```bash
+poetry export --output requirements.txt
+```
 ### Структура файла `pyproject.toml`
 Стандарт описан в PEP 518: https://www.python.org/dev/peps/pep-0518/#abstract
 
@@ -187,24 +207,3 @@ poetry add pytest@latest --dev
 Если не использовать указание новой версии или тэг `latest`, то упадёт ошибка а-ля "зависимость уже присутствует"
 
 После добавления новой версии нужно запустить `poetry install` чтобы обновления были отражены в `poetry.lock`
-
-### Добавление poetry в существующий проект
-```bash
-poetry init
-```
-Эта команда стартует интерактивную сессию чтобы создать `pyproject.toml`. 
-
-После создания `pyproject.toml` можно использовать `poetry` в проекте
-
-#### Если присутствует `requirements.txt`
-Просто использовать команду `add`, в которую прокинуть все зависимости из `requirements.txt`:
-```bash
-poetry add `cat requirements.txt`
-```
-
-В случае если `requirements.txt` содержит сложные вещи, можно добавить зависимости в `pyproject.toml` вручную.
-
-#### Как восстановить `requirements.txt` из `poetry.lock`
-```bash
-poetry export --output requirements.txt
-```
