@@ -16,4 +16,8 @@ kubectl cp /tmp/foo <some-pod>:/tmp/bar -c <specific-container>
 kubectl cp <some-namespace>/<some-pod>:/tmp/foo /tmp/bar
 
 ```
+На случай нестабильной сети можно добавлять параметр `retries`:
 
+```bash
+kubectl cp --retries=-1 ...
+```
