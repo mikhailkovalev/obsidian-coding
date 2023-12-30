@@ -26,3 +26,9 @@ ffmpeg -i <path-to-video> -map 0:2 -ss <start second> -to <last second> -f mp3 -
 ```bash
 ffmpeg -i "input.mkv" -vf "scale=trunc(3*iw/8)*2:trunc(3*ih/8)*2" -c:v libx265 -crf 28 "output.mkv"
 ```
+
+### Add audio to video
+[Source](https://stackoverflow.com/a/11783474)
+```bash
+ffmpeg -i video.mkv -i audio.mp3 -map 0 -map 1:a -c:v copy -shortest output.mkv
+```
