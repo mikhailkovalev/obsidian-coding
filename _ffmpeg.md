@@ -32,3 +32,7 @@ ffmpeg -i "input.mkv" -vf "scale=trunc(3*iw/8)*2:trunc(3*ih/8)*2" -c:v libx265 -
 ```bash
 ffmpeg -i video.mkv -i audio.mp3 -map 0 -map 1:a -c:v copy -shortest output.mkv
 ```
+
+```bash
+ffmpeg -ss hh:mm:ss -i original_video.mp4 -c copy -t 00:00:04 cut_1_test.mp4
+```
