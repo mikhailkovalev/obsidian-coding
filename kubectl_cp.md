@@ -10,7 +10,7 @@ kubectl cp /tmp/foo_dir <some-pod>:/tmp/bar_dir
 kubectl cp /tmp/foo <some-pod>:/tmp/bar -c <specific-container>
 
 # Copy /tmp/foo local file to /tmp/bar in a remote pod in namespace <some-namespace>
-	kubectl cp /tmp/foo <some-namespace>/<some-pod>:/tmp/bar
+kubectl cp /tmp/foo <some-namespace>/<some-pod>:/tmp/bar
 
 # Copy /tmp/foo from a remote pod to /tmp/bar locally
 kubectl cp <some-namespace>/<some-pod>:/tmp/foo /tmp/bar
