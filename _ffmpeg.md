@@ -36,3 +36,8 @@ ffmpeg -i video.mkv -i audio.mp3 -map 0 -map 1:a -c:v copy -shortest output.mkv
 ```bash
 ffmpeg -ss hh:mm:ss -i original_video.mp4 -c copy -t 00:00:04 cut_1_test.mp4
 ```
+
+### Cut video
+```bash
+ffmpeg -ss 00:01:30 -to 00:02:15 -i /path/to/input-video -c copy /path/to/output-video
+```
