@@ -41,3 +41,8 @@ ffmpeg -ss hh:mm:ss -i original_video.mp4 -c copy -t 00:00:04 cut_1_test.mp4
 ```bash
 ffmpeg -ss 00:01:30 -to 00:02:15 -i /path/to/input-video -c copy /path/to/output-video
 ```
+
+### Compress video
+```bash
+ffmpeg -i input.mp4 -vcodec libx265 -crf 28 output.mp4
+```
