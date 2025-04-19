@@ -12,3 +12,6 @@ sudo umount /dev/sd<?><?>
 sudo dd bs=4M if=/path/to/input.iso of=/dev/sd<?><?> conv=fdatasync status=progress
 ```
 
+---
+Windows iso
+[Source](https://www.linuxbabe.com/ubuntu/easily-create-windows-10-bootable-usb-ubuntu)
