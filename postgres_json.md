@@ -16,3 +16,12 @@ select params->ids->0 from events;
 -- This requires type casting preferences->'beta' from json to boolean
 select preferences->'beta' from users where (preferences->>'beta')::boolean is true;
 ```
+
+Check if key in json-array
+[Source](https://stackoverflow.com/a/33631247)
+```sql
+SELECT '{"key_a":1}'::jsonb ? 'key_a'
+```
+```sql
+SELECT '{"key_a": {"nested_key": "a"}}'::jsonb -> 'key_a' ? 'nested_key' 
+```
